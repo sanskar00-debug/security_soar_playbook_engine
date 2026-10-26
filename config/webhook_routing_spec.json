@@ -1,0 +1,19 @@
+{
+  "routing_rules": {
+    "CRITICAL_EXFILTRATION": {
+      "channel_destination": "incident-alerts",
+      "embed_color_hex": 15158332,
+      "require_immediate_escalation": true
+    },
+    "HIGH_RISK_BRUTE_FORCE": {
+      "channel_destination": "incident-alerts",
+      "embed_color_hex": 15105570,
+      "require_immediate_escalation": true
+    },
+    "LOW_RISK_SCANNER": {
+      "channel_destination": "general-monitoring",
+      "embed_color_hex": 3447003,
+      "require_immediate_escalation": false
+    }
+  }
+}
