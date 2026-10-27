@@ -1,0 +1,9 @@
+
+# Added by ggshield
+.cache_ggshield
+# Ignore local environment credential files
+.env
+
+# Ignore python caching profiles
+__pycache__/
+*.pyc
